@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+  Name: Zach Molnar
+  Pawprint: zrmnd2
+  Class: LT355
+  File: index.html
+  Description: Professional homepage and video resume for Zach Molnar.
+-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Zach Molnar</title>
+  <meta name="description" content="Professional homepage and video resume for Zach Molnar.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Custom font used here -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="nav.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+<nav class="navbar" aria-label="Main navigation">
+  <a class="brand" href="index.html">
+    <span class="brand-mark">ZM</span>
+    <span>Zach Molnar</span>
+  </a>
+
+  <input class="nav-toggle" type="checkbox" id="nav-toggle">
+  <label class="nav-button" for="nav-toggle" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </label>
+
+  <ul class="nav-menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li class="dropdown">
+      <a href="project.html">Projects</a>
+      <ul class="dropdown-menu">
+        <li><a href="project.html#web">Web Portfolio</a></li>
+        <li><a href="project.html#security">Security Labs</a></li>
+        <li><a href="project.html#skills">Skills Table</a></li>
+      </ul>
+    </li>
+    <li><a href="reflection.html">Reflection</a></li>
+    <li><a class="nav-cta" href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+
+<header class="hero">
+  <div class="hero-bg"></div>
+  <section class="hero-content">
+    <p class="eyebrow">Information Technology Portfolio</p>
+    <h1>Building clean, secure, and responsive digital experiences.</h1>
+    <p class="hero-copy">I am Zach Molnar, an Information Technology student developing professional skills in web design, cybersecurity, troubleshooting, and business technology.</p>
+    <div class="hero-actions">
+      <a class="button primary" href="project.html">View My Work</a>
+      <a class="button secondary" href="contact.html">Contact Me</a>
+    </div>
+  </section>
+  <aside class="hero-panel" aria-label="Professional snapshot">
+    <div class="stat-card">
+      <span class="stat-number">5</span>
+      <span class="stat-label">Responsive Pages</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-number">2</span>
+      <span class="stat-label">CSS Files</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-number">100%</span>
+      <span class="stat-label">Professional Focus</span>
+    </div>
+  </aside>
+</header>
+
+<main id="main">
+  <section class="section split">
+    <div>
+      <p class="section-kicker">Overview</p>
+      <h2>A modern professional portfolio</h2>
+      <p>This site presents my academic progress, technology interests, project work, and professional goals. The layout uses responsive design so the content stays organized on desktop, tablet, and mobile screens.</p>
+    </div>
+    <div class="glass-card">
+      <h3>Focus Areas</h3>
+      <ul class="check-list">
+        <li>Responsive web design</li>
+        <li>Cybersecurity lab practice</li>
+        <li>Technical troubleshooting</li>
+        <li>Professional communication</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-heading">
+      <p class="section-kicker">Featured Media</p>
+      <h2>Video Resume</h2>
+      <p>This video is included as a professional media element for the final portfolio project.</p>
+    </div>
+    <div class="video-frame">
+      <video controls poster="compsci.webp">
+        <source src="resumemov.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+</main>
+
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <h2>Zach Molnar</h2>
+      <p>Information Technology Student focused on practical, professional technology solutions.</p>
+    </div>
+    <div class="footer-links">
+      <p><strong>Pawprint:</strong> zrmnd2</p>
+      <p><strong>Class:</strong> LT355</p>
+      <p><strong>Email:</strong> zrmnd2@umsystem.edu</p>
+    </div>
+  </div>
+  <p class="copyright">© 2026 Zach Molnar. Built for LT355.</p>
+</footer>
+
+</body>
+</html>

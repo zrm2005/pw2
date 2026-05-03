@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+  Name: Zach Molnar
+  Pawprint: zrmnd2
+  Class: LT355
+  File: project.html
+  Description: Projects and skills page with table and organized content.
+-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Zach Molnar</title>
+  <meta name="description" content="Projects and skills page with table and organized content.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Custom font used here -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="nav.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+<nav class="navbar" aria-label="Main navigation">
+  <a class="brand" href="index.html">
+    <span class="brand-mark">ZM</span>
+    <span>Zach Molnar</span>
+  </a>
+
+  <input class="nav-toggle" type="checkbox" id="nav-toggle">
+  <label class="nav-button" for="nav-toggle" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </label>
+
+  <ul class="nav-menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li class="dropdown">
+      <a href="project.html">Projects</a>
+      <ul class="dropdown-menu">
+        <li><a href="project.html#web">Web Portfolio</a></li>
+        <li><a href="project.html#security">Security Labs</a></li>
+        <li><a href="project.html#skills">Skills Table</a></li>
+      </ul>
+    </li>
+    <li><a href="reflection.html">Reflection</a></li>
+    <li><a class="nav-cta" href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+
+<header class="page-hero">
+  <p class="eyebrow">Projects & Skills</p>
+  <h1>Coursework, web design, and technical practice.</h1>
+</header>
+
+<main id="main">
+  <section class="section project-showcase" id="web">
+    <div class="project-card large">
+      <p class="section-kicker">Featured Project</p>
+      <h2>Responsive Portfolio Website</h2>
+      <p>This final website uses five responsive HTML pages, two CSS files, a dropdown navigation menu, custom fonts, media queries, a table, a video, an image, a contact form, and consistent professional styling.</p>
+      <a class="text-link" href="index.html">View homepage →</a>
+    </div>
+    <div class="project-card" id="security">
+      <p class="section-kicker">Technical Practice</p>
+      <h2>Security Labs</h2>
+      <p>My coursework includes hands-on practice with web security concepts, including understanding how secure design protects websites and users.</p>
+    </div>
+  </section>
+
+  <section class="section" id="skills">
+    <div class="section-heading">
+      <p class="section-kicker">Required Table</p>
+      <h2>Skills & Evidence</h2>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <caption>Technology skills demonstrated in this website</caption>
+        <thead>
+          <tr>
+            <th>Skill Area</th>
+            <th>Evidence in Website</th>
+            <th>Professional Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML Structure</td>
+            <td>Five organized pages with semantic sections</td>
+            <td>Creates readable, maintainable webpages</td>
+          </tr>
+          <tr>
+            <td>CSS Layout</td>
+            <td>Grid, flexbox, cards, and responsive spacing</td>
+            <td>Improves visual design and usability</td>
+          </tr>
+          <tr>
+            <td>Responsive Design</td>
+            <td>Media queries for desktop, tablet, and mobile</td>
+            <td>Makes content work across screen sizes</td>
+          </tr>
+          <tr>
+            <td>Accessibility</td>
+            <td>Labels, alt text, skip link, readable contrast</td>
+            <td>Helps more users access the site</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <h2>Zach Molnar</h2>
+      <p>Information Technology Student focused on practical, professional technology solutions.</p>
+    </div>
+    <div class="footer-links">
+      <p><strong>Pawprint:</strong> zrmnd2</p>
+      <p><strong>Class:</strong> LT355</p>
+      <p><strong>Email:</strong> zrmnd2@umsystem.edu</p>
+    </div>
+  </div>
+  <p class="copyright">© 2026 Zach Molnar. Built for LT355.</p>
+</footer>
+
+</body>
+</html>

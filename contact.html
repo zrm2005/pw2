@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+  Name: Zach Molnar
+  Pawprint: zrmnd2
+  Class: LT355
+  File: contact.html
+  Description: Responsive and accessible contact form page.
+-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Zach Molnar</title>
+  <meta name="description" content="Responsive and accessible contact form page.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Custom font used here -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="nav.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+<nav class="navbar" aria-label="Main navigation">
+  <a class="brand" href="index.html">
+    <span class="brand-mark">ZM</span>
+    <span>Zach Molnar</span>
+  </a>
+
+  <input class="nav-toggle" type="checkbox" id="nav-toggle">
+  <label class="nav-button" for="nav-toggle" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </label>
+
+  <ul class="nav-menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li class="dropdown">
+      <a href="project.html">Projects</a>
+      <ul class="dropdown-menu">
+        <li><a href="project.html#web">Web Portfolio</a></li>
+        <li><a href="project.html#security">Security Labs</a></li>
+        <li><a href="project.html#skills">Skills Table</a></li>
+      </ul>
+    </li>
+    <li><a href="reflection.html">Reflection</a></li>
+    <li><a class="nav-cta" href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+
+<header class="page-hero">
+  <p class="eyebrow">Contact</p>
+  <h1>Let’s connect professionally.</h1>
+</header>
+
+<main id="main">
+  <section class="section contact-grid">
+    <div class="contact-info">
+      <p class="section-kicker">Contact Details</p>
+      <h2>Professional Contact</h2>
+      <p>Use this form to send a message. The form includes accessible labels, required fields, and a responsive layout for desktop and mobile views.</p>
+      <div class="contact-list">
+        <p><strong>Email:</strong> zrmnd2@umsystem.edu</p>
+        <p><strong>Class:</strong> LT355</p>
+        <p><strong>Focus:</strong> Information Technology</p>
+      </div>
+    </div>
+
+    <form class="contact-form" action="#" method="post">
+      <div class="form-row">
+        <label for="title">Title</label>
+        <select id="title" name="title" required>
+          <option value="">Choose one</option>
+          <option value="student">Student</option>
+          <option value="instructor">Instructor</option>
+          <option value="professional">Professional</option>
+        </select>
+      </div>
+
+      <div class="form-row">
+        <label for="name">Full Name</label>
+        <input id="name" name="name" type="text" placeholder="Enter your full name" required>
+      </div>
+
+      <div class="form-row">
+        <label for="email">Email Address</label>
+        <input id="email" name="email" type="email" placeholder="example@email.com" required>
+      </div>
+
+      <div class="form-row">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" placeholder="Type your message here" required></textarea>
+      </div>
+
+      <button class="button primary" type="submit">Send Message</button>
+    </form>
+  </section>
+</main>
+
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <h2>Zach Molnar</h2>
+      <p>Information Technology Student focused on practical, professional technology solutions.</p>
+    </div>
+    <div class="footer-links">
+      <p><strong>Pawprint:</strong> zrmnd2</p>
+      <p><strong>Class:</strong> LT355</p>
+      <p><strong>Email:</strong> zrmnd2@umsystem.edu</p>
+    </div>
+  </div>
+  <p class="copyright">© 2026 Zach Molnar. Built for LT355.</p>
+</footer>
+
+</body>
+</html>
